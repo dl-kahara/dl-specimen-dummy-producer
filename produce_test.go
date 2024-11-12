@@ -18,7 +18,7 @@ func Test_post(t *testing.T) {
 		if err != nil {
 			t.Fatal("Could not read request body")
 		}
-		w.Header().Set("Content-Type", "text/plain")
+		w.Header().Set("Content-Type", "application/octet-stream")
 		w.WriteHeader(201)
 		checksum := sha256.Sum256(body)
 		w.Write(checksum[:])

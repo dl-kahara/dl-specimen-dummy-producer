@@ -1,4 +1,4 @@
-module dl-specimen-dummy-producer
+module github.com/dl-kahara/dl-specimen-dummy-producer
 
 go 1.22
 

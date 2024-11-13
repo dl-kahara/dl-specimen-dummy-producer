@@ -8,9 +8,9 @@ on:
   - push
 
 env:
-  REGISTRY: ghcr.io
   PLATFORMS_QEMU: amd64,arm64
   PLATFORMS_DOCKER: linux/amd64,linux/arm64
+  REGISTRY: ghcr.io
 
 jobs:
   test:
